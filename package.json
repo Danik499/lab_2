@@ -1,0 +1,21 @@
+{
+  "name": "lab_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/app.js"
+  },
+  "author": "danik_shcherban",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7"
+  }
+}
